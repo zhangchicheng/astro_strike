@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="5">
+ <tileset firstgid="1" source="../tilesets/spacebodies.tsx"/>
+ <tileset firstgid="7" source="../tilesets/terrain.tsx"/>
+ <objectgroup id="2" name="Space">
+  <object id="2" gid="2" x="96" y="240" width="16" height="16"/>
+  <object id="3" gid="4" x="208" y="32" width="16" height="16"/>
+ </objectgroup>
+ <layer id="1" name="Terrain_1" width="16" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,13,13,13,13,0,0,0,
+0,0,0,0,0,0,0,0,12,8,31,10,19,14,0,0,
+0,0,0,0,0,0,0,0,16,15,36,7,33,14,0,0,
+0,0,0,0,0,0,0,0,0,0,16,15,15,17,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="293">
+ <tileset firstgid="1" source="../tilesets/unit_4.tsx"/>
+ <tileset firstgid="5" source="../tilesets/terrain.tsx"/>
+ <tileset firstgid="71" source="../tilesets/unit_3.tsx"/>
+ <tileset firstgid="73" source="../tilesets/building_1.tsx"/>
+ <tileset firstgid="75" source="../tilesets/building_2.tsx"/>
+ <tileset firstgid="77" source="../tilesets/unit_1.tsx"/>
+ <tileset firstgid="79" source="../tilesets/spacebodies.tsx"/>
+ <tileset firstgid="85" source="../tilesets/building_3.tsx"/>
+ <tileset firstgid="103" source="../tilesets/building_4.tsx"/>
+ <tileset firstgid="105" source="../tilesets/unit_2.tsx"/>
+ <tileset firstgid="109" source="../tilesets/tank.tsx"/>
+ <objectgroup id="10" name="Space">
+  <object id="280" gid="79" x="32" y="240" width="16" height="16"/>
+  <object id="290" gid="81" x="224" y="176" width="16" height="16"/>
+ </objectgroup>
+ <layer id="6" name="Terrain_1" width="16" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,11,11,11,11,11,11,0,0,
+0,11,11,11,11,11,11,23,9,9,19,9,9,9,24,0,
+10,9,9,9,19,9,9,9,9,9,7,9,9,9,9,12,
+10,9,9,9,7,9,9,9,9,9,7,9,9,9,9,12,
+10,9,9,9,7,9,9,9,9,9,7,9,9,9,9,12,
+10,18,9,9,27,17,9,9,9,9,7,9,9,35,13,15,
+14,34,9,9,9,27,8,21,8,8,28,9,9,12,0,0,
+0,10,9,9,9,9,9,7,9,9,9,9,35,15,0,0,
+0,14,13,13,34,9,9,7,9,9,9,9,12,0,0,0,
+11,11,11,11,23,9,6,7,9,9,35,13,15,0,0,0,
+8,8,8,8,8,8,0,28,9,9,12,0,0,0,0,0,
+13,13,13,13,34,9,9,9,9,9,12,0,0,0,0,0,
+0,0,0,0,14,13,13,13,13,13,15,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="Terrain_2" width="16" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,10,0,0,0,0,0,0,0,12,0,
+0,0,0,0,0,0,10,0,0,0,0,0,0,0,12,0,
+0,0,0,0,0,0,14,34,0,5,0,0,35,13,15,0,
+0,0,0,0,0,0,0,14,13,0,0,13,15,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="9" name="Building">
+  <object id="254" gid="73" x="32" y="64" width="32" height="32">
+   <properties>
+    <property name="Destructible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="255" gid="73" x="32" y="96" width="32" height="32">
+   <properties>
+    <property name="Destructible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="256" gid="71" x="80" y="80" width="16" height="16">
+   <properties>
+    <property name="Destructible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="257" gid="71" x="96" y="96" width="16" height="16">
+   <properties>
+    <property name="Destructible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="259" gid="1" x="144" y="192" width="16" height="16"/>
+  <object id="260" gid="75" x="192" y="64" width="32" height="32">
+   <properties>
+    <property name="Destructible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="261" gid="77" x="128" y="64" width="16" height="16">
+   <properties>
+    <property name="Destructible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="262" gid="75" x="128" y="176" width="32" height="32">
+   <properties>
+    <property name="Destructible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="275" gid="77" x="160" y="128" width="16" height="16">
+   <properties>
+    <property name="Destructible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="276" gid="71" x="128" y="192" width="16" height="16">
+   <properties>
+    <property name="Destructible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="282" gid="105" x="80" y="192" width="16" height="16">
+   <properties>
+    <property name="Destructible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="285" gid="105" x="96" y="192" width="16" height="16">
+   <properties>
+    <property name="Destructible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="289" gid="8" x="96" y="176" width="16" height="16">
+   <properties>
+    <property name="Block" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="291" gid="103" x="80" y="160" width="16" height="48">
+   <properties>
+    <property name="Destructible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="292" gid="77" x="128" y="128" width="16" height="16">
+   <properties>
+    <property name="Destructible" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,30 @@
+[package]
+name = "astro_strike"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# `wav` adds WAV decoding on top of Bevy's default audio formats.
+bevy = { version = "0.19", features = ["wav"] }
+rand = "0.8"
+tiled = "0.16"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+bevy_ecs_tilemap = "0.19.0"
+
+# Speed up compile during development while keeping the game fast enough.
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+# rand's entropy source in the browser.
+getrandom = { version = "0.2", features = ["js"] }
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+
+# Distribution build: fully optimized, one codegen unit, symbols stripped.
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = true

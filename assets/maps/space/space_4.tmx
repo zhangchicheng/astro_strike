@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="2">
+ <tileset firstgid="1" source="../tilesets/spacebodies.tsx"/>
+ <objectgroup id="2" name="Space">
+  <object id="1" gid="6" x="112" y="80" width="16" height="16"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="29">
+ <tileset firstgid="1" source="../tilesets/terrain.tsx"/>
+ <tileset firstgid="67" source="../tilesets/unit_4.tsx"/>
+ <tileset firstgid="71" source="../tilesets/building_1.tsx"/>
+ <tileset firstgid="73" source="../tilesets/building_2.tsx"/>
+ <tileset firstgid="75" source="../tilesets/unit_3.tsx"/>
+ <tileset firstgid="77" source="../tilesets/building_4.tsx"/>
+ <tileset firstgid="79" source="../tilesets/spacebodies.tsx"/>
+ <tileset firstgid="85" source="../tilesets/unit_2.tsx"/>
+ <tileset firstgid="89" source="../tilesets/truck_empty.tsx"/>
+ <tileset firstgid="91" source="../tilesets/tank.tsx"/>
+ <objectgroup id="4" name="Space">
+  <object id="14" gid="80" x="224" y="48" width="16" height="16"/>
+ </objectgroup>
+ <layer id="1" name="Terrain_1" width="16" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,7,7,7,7,0,0,0,0,0,0,0,0,0,
+0,7,19,15,5,5,5,20,7,0,0,0,0,0,0,0,
+6,25,4,28,5,5,5,5,5,8,0,0,0,0,0,0,
+6,5,5,23,4,13,5,5,5,8,0,0,0,0,0,0,
+6,5,5,14,5,29,4,4,26,8,0,0,0,0,0,0,
+6,5,5,12,4,24,5,31,9,11,0,0,0,0,0,0,
+6,25,4,24,5,5,31,11,0,0,0,0,0,0,0,0,
+10,9,9,9,9,9,11,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Terrain_2" width="16" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="Building">
+  <object id="3" gid="71" x="112" y="160" width="32" height="32">
+   <properties>
+    <property name="Destructible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4" gid="73" x="64" y="144" width="32" height="32">
+   <properties>
+    <property name="Destructible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="16" gid="67" x="64" y="208" width="16" height="16"/>
+  <object id="20" gid="77" x="32" y="192" width="16" height="48">
+   <properties>
+    <property name="Destructible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="21" gid="85" x="96" y="192" width="16" height="16">
+   <properties>
+    <property name="Destructible" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
